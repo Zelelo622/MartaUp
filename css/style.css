@@ -14,6 +14,10 @@ ul {
 
 body {
   font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #272727;
 }
 
 .container {
@@ -136,4 +140,54 @@ body {
 .header-dots .slick-active button {
   width: 15px;
   opacity: 1;
+}
+
+/*specialization*/
+
+.specialization {
+  padding: 55px 0 104px;
+  background-image: url(../img/specialization/specialization-bg.svg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
+.specialization__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.specialization__title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 45px;
+  color: #202020;
+  margin-bottom: 96px;
+}
+
+.specialization__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.specialization__item {
+  width: 280px;
+}
+
+.specialization__item img {
+  margin-bottom: 23px;
+}
+
+.specialization__item-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #202020;
+  margin-bottom: 8px;
+}
+
+.specialization__item-text {
+  text-align: center;
+  opacity: 0.7;
 }
