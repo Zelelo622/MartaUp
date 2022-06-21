@@ -6,4 +6,8 @@ $(function () {
         autoplay: true,
         dotsClass: 'header-dots',
     });
+
+    $('.nav__burger').on('click', function () {
+        $('.nav__list').slideToggle();
+    });
 })
