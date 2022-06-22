@@ -1,4 +1,4 @@
-# [Одностраничный сайт](https://zelelo622.github.io/MartaUp/index.html)
+# [Одностраничный сайт](https://zelelo622.github.io/MartaUp/)
 
 - Адаптив есть
 - В написание разметки использовалась методология БЭМ
